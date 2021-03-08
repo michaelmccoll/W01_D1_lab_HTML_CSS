@@ -1,11 +1,27 @@
 body {
     font-family: Helvetica,Arial, Sans-serif;
-    margin: 0;
+    margin: 16px;
 }
 
+body > main {
+    margin: auto;
+    width: 80%;
+    float: none;
+}
 body > header {
     background-color: dodgerblue;
     color: white;
+}
+
+body > header > h1 {
+    padding: 16px;
+    text-align: left;
+}
+
+body > header > nav > ul > li {
+    text-align: right;
+    padding: 2px;
+    list-style: none;
 }
 
 body > footer {
@@ -14,6 +30,7 @@ body > footer {
 
 header > nav > ul {
     list-style: none;
+    padding: 16px;
 }
 
 header > nav > ul > li > a {
@@ -29,4 +46,20 @@ body > footer > p {
     padding: 16px;
     color: white;
     text-align: center;
+}
+
+body > main > aside > section {
+    float: right;
+}
+
+body > main > aside {
+    float: left;
+}
+
+body > main > article {
+    clear: both;
+}
+
+.form {
+    margin: 6px;
 }
