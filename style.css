@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica,Arial, Sans-serif;
+    margin: 0;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+body > footer {
+    background-color: dodgerblue;
+}
+
+header > nav > ul {
+    list-style: none;
+}
+
+header > nav > ul > li > a {
+    color: white;
+    cursor: pointer;
+}
+
+body > footer {
+    background-color: dodgerblue;
+}
+
+body > footer > p {
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
